@@ -1,0 +1,123 @@
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+.site-title-block{
+    float: right;
+}
+.site-nav{
+    float: left;
+}
+.site-main-menu{
+    display: flex;
+}
+.page-content .about{
+    direction: ltr;
+    text-align: right;
+    float: right;
+}
+.about-me{
+    text-align: right;
+}
+.col-sm-6 .col-md-6 .col-lg-6{
+    float: left;
+    direction: ltr;
+}
+.info-list li{
+    text-align: right;
+}
+.contact-info-block{
+    text-align:right
+}
+.contact-info-block .ci-text{
+    margin-right: 50px;
+}
+.progress-bar{
+    float: right !important;
+}
+.owl-nav{
+    direction: ltr;
+}
+.owl-carousel.owl-loaded{
+    direction: ltr;
+    margin-top: 20px;
+}
+.about p{
+    direction: rtl;
+}
+.phone{
+    direction: ltr;
+}
+.secLan{
+    float: left;
+}
+.secLan .language{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.secLan .language li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin: 33px 2px;
+}
+.secLan .language .slash{
+    margin-top: 35px;
+}
+.lang{
+    display: block;
+    position: relative;
+    padding: 8px 0;
+    margin: 0px;
+    text-align: center;
+    color: #49515d;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    opacity: 0.6;
+}
+@media only screen and (min-width: 991px){
+    .header.sticked .language li {
+        margin-top: 13px;
+    }
+    .header.sticked .language .slash{
+        margin-top: 16px;
+    }
+
+}
+@media (max-width: 600px){
+    .site-main-menu{
+        display: inline-block;
+    }
+}
+.closeModel{
+    margin: 0px auto 0px 0px;
+}
+/* resume */
+.block .timeline{
+    border-right: 2px solid #e0e0e0 !important;
+    border-left: none;
+}
+.timeline .timeline-item{
+    margin-right: 20px;
+    border-right: 2px solid !important;
+    border-left:none;
+}
+.timeline-item:before , .timeline-item:after{
+    right: -29px;
+}
+/* test */
+.testimonial-credits{
+    direction: rtl;
+}
+.testimonial-author-info{
+    padding-right: 12px;
+    text-align: right;
+}
